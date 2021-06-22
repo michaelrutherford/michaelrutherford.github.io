@@ -1,26 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
 body {
+    /* Color */
     background-color: #FFFFFF;
-}
-  
-h1 {
-    color: #000000;
-    font-family: Arial;
-    font-size: xx-large;
-    text-align: center;
+
+    /* Display */
+    margin: 0;
+    padding: 0;
 }
 
-h2 {
+.header {
+    /* Color */
+    color: #000000;
+
+    /* Text */
+    font-family: 'Oxygen';
+
+    /* Display*/
+    padding-left: 15px;
+}
+
+.menubar {
+    /* Color */
+    background-color: #333333;
+
+    /* Display */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.home {
+    /* Color */
+    background-color: #4CC2C0;
+    color: #FFFFFF;
+
+    /* Text */
+    font-family: 'Oxygen';
+    text-align: center;
+    text-decoration: none;
+
+    /* Display */
+    float: left;
+    display: block;
+    padding: 15px 15px;
+}
+
+.menubaritem {
+    /* Color */
+    color: #FFFFFF;
+
+    /* Text */
+    font-family: 'Oxygen';
+    text-align: center;
+    text-decoration: none;
+
+    /* Display */
+    float: right;
+    display: block;
+    padding: 15px 15px;
+}
+
+.menubaritem:hover {
+    /* Color */
+    background-color: #222222;
     color: #FFFFFF;
 }
 
-h3 {
-    color: #000000;
+.active:hover {
+    /* Color */
+    background-color: #222222;
+    color: #ffffff;
 }
 
-p {
-    color: #000000;
+.content {
+    /* Color */
+    color: #333333;
+
+    /* Text */
+    font-family: 'Oxygen';
+
+    /* Display */
+    padding-left: 15px;
 }
 
 a {
+    /* Color */
     color: #000000;
+
+    /* Text */
+    font-family: 'Oxygen';
+
+    /* Display */
+    padding-left: 15px;
 }

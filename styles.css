@@ -58,7 +58,7 @@ body {
 
 .skills {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     margin-top: 20px;
 }
@@ -79,8 +79,9 @@ body {
     display: grid;
     gap: 20px;
 }
+
 .project {
-    display: grid;
+    display: inline-block;
     grid-template-columns: 120px 1fr;
     gap: 20px;
     align-items: center;
@@ -94,18 +95,22 @@ body {
 
 .project-title {
     margin-bottom: 0;
+    text-align: center;
 }
+
 .project img {
     width: 120px;
     height: 120px;
     object-fit: cover;
     border-radius: 5px;
-    margin: 0px 10px;
+    margin: 20px auto;
+    display: block;
 }
-.project-details {
-    display: flex;
-    flex-direction: column;
+
+.project p {
+    margin: 0px 20px;
 }
+
 .project-links {
     margin-top: 10px;
     text-align: left;
@@ -113,7 +118,7 @@ body {
 }
 .project-links li {
     display: inline;
-    margin-right: 10px;
+    margin-left: 20px;
 }
 .project-links li:last-child {
     margin-right: 0;

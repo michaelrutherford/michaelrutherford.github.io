@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #cedece;
+    padding: 10px 0;
+    border-radius: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #a7bb9a;
+}
+.header h1 {
+    margin: 0;
+    color: #000000;
+}
+.header p {
+    margin: 5px 0;
+    color: #000000;
+}
+.link-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+.link-list li {
+    display: inline;
+    margin: 0 10px;
+}
+.link-list li a {
+    text-decoration: underline;
+    color: #3e5e29;
+}
+.link-list li a:hover {
+    text-decoration: underline;
+}
+.section-title {
+    margin-bottom: 0px;
+}
+.about-section {
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    color: #000000;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.skill-tag {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1a2911;
+    padding: 5px 5px;
+    font-size: 14px;
+    text-align: center;
+    color: #e6e4e0;
+    background-color: #3e5e29;
+}
+
+.projects {
+    display: grid;
+    gap: 20px;
+}
+.project {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 20px;
+    align-items: center;
+    background-color: #cedece;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #a7bb9a;
+    margin: 0px 5px;
+}
+
+.project-title {
+    margin-bottom: 0;
+}
+.project img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+.project-details {
+    display: flex;
+    flex-direction: column;
+}
+.project-links {
+    margin-top: 10px;
+    text-align: left;
+    padding: 0;
+}
+.project-links li {
+    display: inline;
+    margin-right: 10px;
+}
+.project-links li:last-child {
+    margin-right: 0;
+}
+.project-links li a {
+    text-decoration: underline;
+    color: #3e5e29;
+}
+.project-links li a:hover {
+    text-decoration: underline;
+}        
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}

@@ -1,13 +1,128 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Michael Rutherford</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 id="title">Welcome</h3>
-    <p>Welcome to my personal website.</p>
+    <div class="container">
+        <header class="header">
+            <h1>Michael Rutherford</h1>
+            <div>
+                <p>Software Developer</p>
+                <p>Austin, Texas</p>
+            </div>
+            <ul class="link-list">
+                <li><a href="https://github.com/michaelrutherford">github</a></li>
+                <li><a href="https://www.linkedin.com/in/michaelloganrutherford/">linkedin</a></li>
+                <li><a href="https://github.com/michaelrutherford">blog</a></li>
+                <li><a href="https://www.linkedin.com/in/michaelloganrutherford/">email</a></li>
+            </ul>
+        </header>
+
+        <section class="about-section">
+            <h2 class="section-title">About</h2>
+            <p>
+                I am a software developer from Austin, Texas, with a solid educational background and diverse technical expertise. 
+                I earned my <u>Bachelor's degree in Computer Science</u> from Southern New Hampshire University in 2024, and an <u>Associate's degree in Computer Science</u> from Austin Community College in 2021. 
+            </p>
+            <p>
+                Since 2023, I have been working as a Technical Support Advisor for Apple via KellyConnect.
+                Outside of my professional life, I enjoy indulging in my hobbies, which include music, coding, exploring nature, and reading.
+            </p>
+        </section>
+
+        <section>
+            <h2 class="section-title">Skills</h2>
+            <div class="skills">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Linux</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">C/C++</span>
+                <span class="skill-tag">HTML/CSS</span>
+                <span class="skill-tag">macOS</span>
+                <span class="skill-tag">Vim</span>
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">Troubleshooting</span>
+                <span class="skill-tag">Docker</span>
+                <span class="skill-tag">Java</span>
+                <span class="skill-tag">iOS</span>
+            </div>
+        </section>
+
+
+        <section class="projects">
+            <h2 class="section-title">Selected Projects</h2>
+            <div class="project">
+                <img src="assets/project1.png" alt="Project 1">
+                <div class="project-details">
+                    <h3 class="project-title">Conway's Game of Life</h3>
+                    <p>
+                        An interactive Python implementation of the cellular automaton known as Conway's Game of Life. 
+                        A cellular automaton is a discrete model composed of a grid of cells, each of which can be in a finite number of states and evolves according to a set of rules based on the states of neighboring cells. 
+                        Users can play, pause, clear, reset, and randomize the grid while exploring the evolution of these emerging patterns.
+                        This program also features simulation statistics and adjustable speed controls.
+                        <br>Licensed under GNU GPL v3.0.
+                    </p>
+                    <ul class="project-links">
+                        <li><a href="https://github.com/michaelrutherford/game-of-life">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project">
+                <img src="assets/microbe-project.png" alt="Project 4">
+                <div class="project-details">
+                    <h3 class="project-title">Microbe Simulator</h3>
+                    <p>
+                        An interactive JavaScript simulation where users can drag and drop different types of microbes (predators, viruses, prey, reproducers) to observe their unique behaviors and interactions. 
+                        Predators hunt other microbes, viruses infect prey and reproducers, prey move randomly, and reproducers multiply under specific conditions. 
+                        The code includes collision detection, lifespan management, and real-time updates on microbe statistics.
+
+                    </p>
+                    <ul class="project-links">
+                        <li><a href="https://michaelrutherford.github.io/microbe-simulator/">Website</a></li>
+                        <li><a href="https://github.com/michaelrutherford/microbe-simulator">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project">
+                <img src="assets/project2.png" alt="Project 2">
+                <div class="project-details">
+                    <h3 class="project-title">Shape Art</h3>
+                    <p>
+                        A website built with JavaScript, HTML, and CSS that generates random abstract geometric art. 
+                        It creates various shapes, such as circles, squares, triangles, lines, and rings, each with random sizes, colors, positions, and rotations. 
+                        Users can save their creations as PNG images. 
+                    </p>
+                    <ul class="project-links">
+                        <li><a href="https://michaelrutherford.github.io/shape-art/">Website</a></li>
+                        <li><a href="https://github.com/michaelrutherford/shape-art">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project">
+                <img src="assets/project3.png" alt="Project 3">
+                <div class="project-details">
+                    <h3 class="project-title">Word Shade</h3>
+                    <p>
+                        A JavaScript and HTML project that transforms user-input text into poetry by selectively highlighting words. 
+                        Users can input paragraphs of text, which the application converts into visually distinct passages or phrases. 
+                        Additionally, the project includes functionality to save the transformed text as a .txt file, facilitating easy sharing. 
+                    </p>
+                    <ul class="project-links">
+                        <li><a href="https://michaelrutherford.github.io/wordshade/">Website</a></li>
+                        <li><a href="https://github.com/michaelrutherford/wordshade">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            <p>&copy; 2024 Michael Rutherford. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 </html>

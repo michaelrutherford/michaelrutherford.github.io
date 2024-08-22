@@ -23,7 +23,9 @@ body {
 }
 .header h1 {
     margin: 0;
-    color: #000000;
+    color: #FFFFFF;
+    font-family: "Lobster";
+    font-size: 24px;
 }
 .header p {
     margin: 5px 0;

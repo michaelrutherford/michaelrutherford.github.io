@@ -5,56 +5,63 @@ body {
     padding: 0;
     background-color: #fff;
 }
+
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 0 20px;
 }
+
 .header {
     text-align: center;
     margin-bottom: 20px;
     background-color: #cedece;
     padding: 10px 0;
     border-radius: 5px;
-    border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #a7bb9a;
+    border: 1px solid #a7bb9a;
 }
+
 .header h1 {
     margin: 0;
-    color: #000000;
+    color: #000;
     font-size: 24pt;
 }
+
 .header p {
     margin: 5px 0;
-    color: #000000;
+    color: #000;
 }
+
 .link-list {
     list-style-type: none;
     padding: 0;
     text-align: center;
 }
+
 .link-list li {
     display: inline;
     margin: 0 10px;
 }
+
 .link-list li a {
     text-decoration: underline;
     color: #3e5e29;
 }
+
 .link-list li a:hover {
     text-decoration: underline;
 }
+
 .section-title {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
+
 .about-section {
     margin-bottom: 20px;
 }
 
 .about-section p {
-    color: #000000;
+    color: #000;
 }
 
 .about-section img {
@@ -63,11 +70,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 35%;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #000000;
+    border: 1px solid #000;
 }
-
 
 .skills {
     display: grid;
@@ -80,10 +84,8 @@ body {
 
 .skill-tag {
     border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #1a2911;
-    padding: 5px 5px;
+    border: 1px solid #1a2911;
+    padding: 5px;
     font-size: 14px;
     text-align: center;
     color: #e6e4e0;
@@ -102,10 +104,8 @@ body {
     align-items: center;
     background-color: #cedece;
     border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #a7bb9a;
-    margin: 0px 5px;
+    border: 1px solid #a7bb9a;
+    margin: 0 5px;
 }
 
 .project-title {
@@ -123,7 +123,7 @@ body {
 }
 
 .project p {
-    margin: 0px 20px;
+    margin: 0 20px;
 }
 
 .project-links {
@@ -131,20 +131,25 @@ body {
     text-align: left;
     padding: 0;
 }
+
 .project-links li {
     display: inline;
     margin-left: 20px;
 }
+
 .project-links li:last-child {
     margin-right: 0;
 }
+
 .project-links li a {
     text-decoration: underline;
     color: #3e5e29;
 }
+
 .project-links li a:hover {
     text-decoration: underline;
-}        
+}
+
 .footer {
     text-align: center;
     margin-top: 40px;
